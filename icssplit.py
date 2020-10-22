@@ -33,6 +33,7 @@ END_EVENT = 'END:VEVENT'
 enc = {'encoding': 'utf8'} # don't rely on LANG, force encoding to UTF-8
 
 def icssplit(paul@innovationsimple.ics,1000)
+def icssplit(paul@innovationsimple.ics,1000000)
 	"""\
 	Split .ics content in `src` into several .ics contents, each
 	`maxsize` or smaller, and return them as a list of strings.
